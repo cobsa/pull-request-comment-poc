@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Start e2e test
         if: contains(github.event.comment.body, '/e2e')
-        run: echo running e2e-test
+        run: echo running e2e-test 2
